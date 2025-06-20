@@ -93,7 +93,7 @@ result = (imga + imgb) * 0.5
 # 因使用频繁，初始已经定义了makergb(r, g, b)函数来组合三通道，和定义了imga_r、imga_g、imga_b参数为imaga的r，g，b通道值的复制
 #Default already import numpy as np
 imga_r = (imga_r + imga_g) * 0.5
-imga = make_rgb(imga_r, imga_g, imga_b)
+imga = makergb(imga_r, imga_g, imga_b)
 result = imga
 
 # 加权混合
