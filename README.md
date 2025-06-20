@@ -1,4 +1,4 @@
-# Guide to Using CustomScriptNumpy Nodes
+# Guide to Using CustomScript-Numpy Nodes
 [English](https://github.com/CoiiChan/ComfyUI-FuncAsTexture-CoiiNode)|[中文](https://github.com/CoiiChan/ComfyUI-FuncAsTexture-CoiiNode/blob/main/README_CN.md)
 ## Overview
 It allows for mathematical operations on input images and precise manipulation of channels through NumPy formulas, making it suitable for ComfyUI users with programming experience.
