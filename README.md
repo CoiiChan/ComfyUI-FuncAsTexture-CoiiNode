@@ -3,7 +3,7 @@
 ## Overview
 It allows for mathematical operations on input images and precise manipulation of channels through NumPy formulas, making it suitable for ComfyUI users with programming experience.
 
-![overview](https://github.com/CoiiChan/ComfyUI-FuncAsTexture-CoiiNode/blob/main/example/Overview.png?raw=true)
+![overview](https://github.com/CoiiChan/Comfyui-FuncAsTexture-CoiiNode/blob/main/example/Overview.png?raw=true)
 
 I hope that the calculation weights for basic images will no longer rely on guessing and trial - and - error, but instead have clear and visible rules.
 
