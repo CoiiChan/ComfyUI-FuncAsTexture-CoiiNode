@@ -7,7 +7,7 @@
 
 我希望基础的image(s)计算权重不再靠猜和试而是有清晰的可视的规则。
 
-因为时常无法分辨混合模式normal、screen、overlay 分别是说明权重组合，甚至难以找到一个Max（image a，image b）的操作。
+因为时常无法分辨混合模式normal、screen、overlay 分别是什么权重组合，甚至难以找到一个Max（image a，image b）的操作。
 
 主节点灵感来源虚幻引擎材质编辑器的Custom节点
 
