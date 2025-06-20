@@ -59,10 +59,10 @@ The derived nodes include:
 | 1 - x | Performs the operation of 1 minus each pixel value of the optional input image `imga` and assigns the result to `result`. |
 | Sine | Calculates the sine value of each pixel value of the optional input image `imga` and assigns the result to `result`. |
 | DDX | Performs a differential operation on the optional input image `imga` in the x - direction and assigns the result to `result`. |
-| Contant3Vector(Color) | The corresponding implementation has not been found in the provided code, so an accurate description cannot be provided. |
+| Contant3Vector(Color) | Create RGB solid color images using constants. |
 | if (FuncAsTexture) | Based on the comparison result between `imga` and the constant `pfloat1`, it selects `imgb` or `imgc` as the output and assigns the result to `result`. |
 | Chroma_Key_Alpha | Implements the green screen keying function. It converts the image from the RGB color space to the HSV color space, defines the green range, creates and feathers the mask, and finally applies the mask to the image. |
-| Desaturation | The corresponding implementation has not been found in the provided code, so an accurate description cannot be provided. |
+| Desaturation | Desaturation of Image 'imga' Using Three Channel Mean Method. |
 
 ## Texture Expansion Nodes
 
