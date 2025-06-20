@@ -92,7 +92,7 @@ result = (imga + imgb) * 0.5
 # Since it is frequently used, the `makergb(r, g, b)` function has been initially defined to combine three channels, and the parameters `imga_r`, `imga_g`, and `imga_b` are defined as copies of the r, g, and b channel values of `imaga`.
 #Default already import numpy as np
 imga_r = (imga_r + imga_g) * 0.5
-imga = make_rgb(imga_r, imga_g, imga_b)
+imga = makergb(imga_r, imga_g, imga_b)
 result = imga
 
 # Weighted blending
