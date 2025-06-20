@@ -59,10 +59,10 @@
 | 1-x | 对可选输入图像 `imga` 的每个像素值执行 1 减去该值的操作，结果赋值给 `result`。 |
 | Sine | 对可选输入图像 `imga` 的每个像素值计算正弦值，结果赋值给 `result`。 |
 | DDX | 对可选输入图像 `imga` 进行 x 方向的差分运算，结果赋值给 `result`。 |
-| Contant3Vector(Color) | 暂未在提供的代码中找到对应实现，无法准确描述。 |
+| Contant3Vector(Color) | 使用常量创建RGB纯色图像。 |
 | if (FuncAsTexture) | 根据 `imga` 与常量 `pfloat1` 的比较结果，选择 `imgb` 或 `imgc` 作为输出，结果赋值给 `result`。 |
 | Chroma_Key_Alpha | 实现绿幕抠像功能，将图像从 RGB 转换为 HSV 颜色空间，定义绿色范围，创建并羽化遮罩，最后将遮罩应用到图像。 |
-| Desaturation | 暂未在提供的代码中找到对应实现，无法准确描述。 |
+| Desaturation | 对图像`imga`三通道均值方式去饱和度。 |
 
 
 ## Texture扩展节点
