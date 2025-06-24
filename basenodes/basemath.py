@@ -237,7 +237,7 @@ class Lerp(CustomScript):
                 del inputs['required'][param]
             if param in inputs.get('optional', {}):
                 inputs['optional'][param] = (inputs['optional'][param][0], {**inputs['optional'][param][1], 'hidden': True})
-        inputs["required"]["formula"] = ("STRING", {"default":"result = imga * pfloat1 + imgb * (1 - pfloat1)", "multiline": True})
+        inputs["required"]["formula"] = ("STRING", {"default":"result = imgb * pfloat1 + imga * (1 - pfloat1)", "multiline": True})
         return inputs
 
 #Input 1 image 2 INT Nodes
